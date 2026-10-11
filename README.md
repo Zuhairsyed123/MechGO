@@ -142,7 +142,3 @@ To connect live production services:
 - **MechGO Roadside Support**: 1800-209-8899
 
 ---
-
-## License
-
-MIT License.
