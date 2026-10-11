@@ -1,5 +1,7 @@
 # MechGO
 
+Live Demo: [MechGO](https://flying-mistral-gxggvsw.vercel.app/)
+
 On-demand roadside assistance mobile app for stranded drivers in India. Built with React Native and Expo.
 
 MechGO connects drivers stranded with vehicle trouble (flat tyres, dead batteries, overheating, fuel depletion) to nearby available mechanics. It focuses on practical highway reliability: live GPS matching within expanding search radii, honest arrival time estimates with traffic buffers, upfront transparent pricing, and offline safety checklists before requesting help.
@@ -25,7 +27,7 @@ Getting stranded on Indian highways or outer ring roads is stressful. Most drive
 - **Geolocation**: `expo-location` with live GPS and reverse geocoding
 - **Maps**: `react-native-maps` for native Android/iOS; embedded fallback for web
 - **Testing**: Node.js native test runner (`node --test`)
-- **Hosting / Deploy**: Vercel for web exports
+- **Hosting / Deploy**: Vercel ([Live App](https://flying-mistral-gxggvsw.vercel.app/))
 
 ---
 
