@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MechGO",
+    "slug": "mechgo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1F5C99"
+    },
+    "android": {
+      "package": "com.mechgo.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1F5C99",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CALL_PHONE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_ANDROID_API_KEY_HERE"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MechGO needs your live GPS location to find nearest roadside mechanics and direct them to you on the highway."
+        }
+      ]
+    ]
+  }
+}
